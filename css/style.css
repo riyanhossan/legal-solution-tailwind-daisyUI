@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* fonts  */
+.poppins {
+    font-family: "Poppins", sans-serif;
+  }
+
+.eb-garamond {
+    font-family: "EB Garamond", serif;
+}
+
+
+.menu :where(li > .menu-dropdown-toggle):after, .menu :where(li > details > summary):after {
+    transform: rotate(-45deg) !important;
+}
+.custom-bg {
+    background-image: linear-gradient(to top, #111111, #11111100), url('../asset/img/banner.png');
+    /* background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important; */
+}
